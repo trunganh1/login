@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+  </head>
+  <body >
+    <center><form class="" action="/login" method="post" >
+      <div class="alert alert-danger">
+         <% messages.forEach(function(message){ %>
+            <span><%=  message %></span>
+         <% })%> </br>
+         <input type="text" name="username" value="" placeholder="Username" autocomplete="off"></br>
+         <% messagese.forEach(function(message){ %>
+           <span><%=  message %></span>
+           <% })%>
+          <input type="password" name="password" value="" placeholder="Password" autocomplete="off">
+      </div>
+
+
+
+          <input type="submit" name="" value="Login">
+    </form></center>
+  </body>
+</html>

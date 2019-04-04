@@ -1,0 +1,17 @@
+[
+  {
+    "idd": 15,
+    "usr": "admin",
+    "pwd": "admin123456"
+  },
+  {
+    "idd": 20,
+    "usr": "admin1",
+    "pwd": "admin1"
+  },
+  {
+    "idd": 25,
+    "usr": "admin2",
+    "pwd": "admin2"
+  }
+]
